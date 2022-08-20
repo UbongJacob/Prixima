@@ -13,9 +13,8 @@
 
     <title>DevUby Prixima Mod</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- NAVBAR -->
-
     <nav class="top-nav" id="home">
       <div class="container">
         <div class="row justify-content-between">
@@ -51,9 +50,9 @@
       </div>
     </nav>
 
-    <nav class="navbar navbar-expand-lg bg-white">
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="#">DevUby Prixima Mod <span>.</span> </a>
+        <a class="navbar-brand" href="#">DevUby Prixima Mod<span>.</span> </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -71,7 +70,7 @@
               <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Services</a>
@@ -89,10 +88,236 @@
               <a class="nav-link" href="#">Blog</a>
             </li>
           </ul>
-          <a href="#" class="btn btn-brna">Contact Us</a>
+          <a href="#" class="btn btn-brand ms-lg-3">Contact Us</a>
         </div>
       </div>
     </nav>
+
+    <!-- SLIDER  -->
+    <div class="slider-wrapper owl-carousel owl-theme" id="hero-slider">
+      <div class="slide1 custom-height bg-cover d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h6 class="text-uppercase text-white">
+                We craft digital experiences
+              </h6>
+              <h1 class="display-2 my-3 text-white text-uppercase">
+                Design Driven for <br />
+                Profesionals
+              </h1>
+              <a href="" class="btn btn-brand"> Get Started</a>
+              <a href="" class="btn btn-outline-light ms-md-3">Our Works</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide2 custom-height bg-cover d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h6 class="text-uppercase text-white">
+                design driven for professionals
+              </h6>
+              <h1 class="display-2 my-3 text-white text-uppercase">
+                we craft digital <br />
+                Experiences
+              </h1>
+              <a href="" class="btn btn-brand"> Get Started</a>
+              <a href="" class="btn btn-outline-light ms-md-3">Our Works</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-5">
+            <div class="row">
+              <div class="col-12 info-box">
+                <img src="./images/icon4.png" alt="" />
+                <div>
+                  <h5>Digital Marketing</h5>
+                  <p>
+                    It is a long established fact that a reader will be
+                    distracted bt the readable content of a page
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 info-box mt-4">
+                  <img src="./images/icon5.png" alt="" />
+                  <div>
+                    <h5>Email Marketing</h5>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted bt the readable content of a page
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 info-box mt-4">
+                    <img src="./images/icon6.png" alt="" />
+                    <div>
+                      <h5>Business Marketing</h5>
+                      <p>
+                        It is a long established fact that a reader will be
+                        distracted bt the readable content of a page
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <img src="./images/about.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MILESTONE -->
+    <section id="milestone" class="bg-cover">
+      <div class="container">
+        <div class="row gy-4 text-center justify-content-center">
+          <div class="col-lg-2 col-sm-6">
+            <div class="display-4">90K+</div>
+            <p class="mb-o">Happy Client</p>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+            <div class="display-4">45M</div>
+            <p class="mb-o">Lines of code</p>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+            <div class="display-4">4356</div>
+            <p class="mb-o">Total Downloads</p>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+            <div class="display-4">123</div>
+            <p class="mb-o">Youtube Subscribers</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro text-center">
+            <h6>OUR SERVICES</h6>
+            <h1>What We Do?</h1>
+            <p>
+              Contrary to popular belief, Lorem Ipsum isnnot simply random text.
+              It has roots in a piece of classical Latin literature from 45BC,
+              making it ober 2000 years old
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4 col-sm-6">
+            <div class="service-box">
+              <img src="./images/icon1.png" alt="" />
+              <h5>Digital Marketing</h5>
+              <p>
+                Contrary to popular belief, Lorem Ipsum isnnot simply random
+                text. It has roots in a piece of classical Latin literature from
+                45BC, making it ober 2000 years old
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="service-box">
+              <img src="./images/icon2.png" alt="" />
+              <h5>Digital Marketing</h5>
+              <p>
+                Contrary to popular belief, Lorem Ipsum isnnot simply random
+                text. It has roots in a piece of classical Latin literature from
+                45BC, making it ober 2000 years old
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="service-box">
+              <img src="./images/icon3.png" alt="" />
+              <h5>Digital Marketing</h5>
+              <p>
+                Contrary to popular belief, Lorem Ipsum isnnot simply random
+                text. It has roots in a piece of classical Latin literature from
+                45BC, making it ober 2000 years old
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="service-box">
+              <img src="./images/icon4.png" alt="" />
+              <h5>Digital Marketing</h5>
+              <p>
+                Contrary to popular belief, Lorem Ipsum isnnot simply random
+                text. It has roots in a piece of classical Latin literature from
+                45BC, making it ober 2000 years old
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="service-box">
+              <img src="./images/icon5.png" alt="" />
+              <h5>Digital Marketing</h5>
+              <p>
+                Contrary to popular belief, Lorem Ipsum isnnot simply random
+                text. It has roots in a piece of classical Latin literature from
+                45BC, making it ober 2000 years old
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="service-box">
+              <img src="./images/icon6.png" alt="" />
+              <h5>Digital Marketing</h5>
+              <p>
+                Contrary to popular belief, Lorem Ipsum isnnot simply random
+                text. It has roots in a piece of classical Latin literature from
+                45BC, making it ober 2000 years old
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro text-center">
+            <h6>Our Work</h6>
+            <h1>Our Recent Work</h1>
+            <p>
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC,
+              making it over 2000 years old
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="project-slider" class="owl-theme owl-carousel">
+        <div class="project">
+          <img src="./images/project1.jpg" alt="" />
+        </div>
+      </div>
+    </section>
 
     <script src="./javascript/jquery-3.6.0.js"></script>
     <script src="./javascript/bootstrap@5.2.0.min.js"></script>
