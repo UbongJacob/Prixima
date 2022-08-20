@@ -6,6 +6,7 @@
   --dark-blue: #092032;
   --dark-primary: #e04122;
   --gradient: rgba(9, 32, 50, 0.4);
+  --gradient2: rgba(9, 32, 50, 0.7);
   --light: #516171;
   --opacity-primary: rgba(255, 77, 41, 0.9);
   --primary: #ff4d29;
@@ -332,4 +333,33 @@ intro p {
 }
 .team-member h5 {
   margin-top: 24px;
+}
+
+/* REVIEW */
+#reviews {
+  background: linear-gradient(var(--gradient2), var(--gradient2)),
+    url(../images/bg_banner1.jpg);
+}
+.review {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+.review img {
+  width: 80px !important;
+  border-radius: 100px;
+  margin: auto;
+}
+.review h4,
+.review p {
+  color: var(--white);
+}
+.review h4 {
+  margin-top: 16px;
+}
+.review small {
+  color: var(--primary);
+}
+.review p {
+  margin-top: 20px;
 }

@@ -47,3 +47,15 @@ $('#project-slider').owlCarousel({
     },
   },
 });
+
+// REVIEWS
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: false,
+  dots: true,
+  items: 1,
+  smartSpeed: 700,
+  autoplay: true,
+  autoplayHoverPause: true,
+});
