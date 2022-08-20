@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+:root {
+  /* COLORS */
+  --background: rgba(255, 255, 255, 0.3);
+  --dark-blue: #092032;
+  --light: #516171;
+  --primary: #ff4d29;
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Barlow', 'sans-serif';
+  line-height: 1.7;
+  color: var(--light);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+  color: var(--dark-blue);
+}
+
+a {
+  color: var(--dark-blue);
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+img {
+  width: 100%;
+}
+
+/* NAVBAR */
+.top-nav {
+  background-color: var(--primary);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.top-nav p {
+  margin-bottom: 0;
+  display: inline-block;
+  margin-right: 16px;
+  color: var(--white);
+}
+
+.top-nav i,
+.top-nav span i {
+  vertical-align: middle;
+}
+
+.social-links a {
+  width: 34px;
+  height: 34px;
+  background-color: var(--background);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-size: 20px;
+  border-radius: 100%;
+}
+
+.social-links a:hover {
+  background-color: var(--white);
+  color: var(--primary);
+}
+
+.navbar {
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.08);
+}
