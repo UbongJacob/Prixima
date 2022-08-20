@@ -1,12 +1,14 @@
 $(document).ready(function () {
   // HERO SLIDER
   $('#hero-slider').owlCarousel({
+    autoplay: true,
+    autoplayHoverPause: true,
     loop: true,
     margin: 0,
     nav: true,
     items: 1,
     dots: false,
-    smartSpeed: 1000,
+    smartSpeed: 700,
     navText: ['PREV', 'NEXT'],
     responsive: {
       0: {
@@ -21,21 +23,27 @@ $(document).ready(function () {
 
 // PROJECT SLIDER
 $('#project-slider').owlCarousel({
+  autoplay: true,
+  autoplayHoverPause: true,
   loop: true,
   margin: 0,
-  nav: false,
-  dots: false,
-  smartSpeed: 1000,
+  nav: true,
+  dots: true,
+  smartSpeed: 700,
+  navText: ['PREV', 'NEXT'],
   margin: 24,
   responsive: {
     0: {
       nav: false,
+      items: 1,
+      margin: 0,
     },
     768: {
-      nav: true,
+      items: 2,
     },
     1140: {
       items: 2,
+      center: true,
     },
   },
 });

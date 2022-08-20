@@ -202,6 +202,13 @@ intro p {
   background-color: var(--primary) !important;
 }
 
+.owl-dot span {
+  background-color: var(--dark-blue) !important;
+}
+.owl-dot.active span {
+  background-color: var(--primary) !important;
+}
+
 /* INFO BOX */
 .info-box {
   display: flex;
@@ -237,4 +244,54 @@ intro p {
 .service-box h5 {
   margin-top: 24px;
   margin-bottom: 12px;
+}
+
+/* PROJECTS  */
+#project-slider .owl-next,
+#project-slider .owl-prev {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+#project-slider .owl-next:hover,
+#project-slider .owl-prev:hover {
+  background-color: var(--primary) !important;
+}
+.project {
+  position: relative;
+}
+.project .overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(9, 32, 50, 0),
+    rgba(9, 32, 50, 0.8)
+  );
+  position: absolute;
+  width: 100%;
+  height: 240px;
+  bottom: 0;
+  left: 0;
+}
+.project .content {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 32px;
+}
+.project h1,
+.project h6 {
+  color: var(--white);
+}
+.project h6 {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.project h6::before {
+  content: '';
+  height: 2px;
+  width: 24px;
+  display: inline-block;
+  background-color: var(--primary);
+  vertical-align: middle;
+  margin-right: 12px;
 }
