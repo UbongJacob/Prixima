@@ -6,7 +6,7 @@
 
   Prixima is a fully responsive digital agency website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/pixology/"><strong>➥ Live Demo</strong></a>
+  <a href="(https://ubongjacob.github.io/Prixima__HTML_CSS_JavaScript_jQuery_BootStrap)"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -14,9 +14,10 @@
 
 ### Demo Screeshots
 
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: center">
 ![Pixology Desktop Demo](./demo-images/prixima-desktop.png "Desktop Demo")
-<br />
 ![Pixology Mobile Demo](./demo-images/prixima-mobile.png "Desktop Demo")
+</div>
 
 ### Prerequisites
 
@@ -39,6 +40,8 @@ Windows:
 ```bash
 git clone https://github.com/UbongJacob/Prixima__HTML_CSS_JavaScript_jQuery_BootStrap.git
 ```
+
+###<a href="(https://ubongjacob.github.io/Prixima__HTML_CSS_JavaScript_jQuery_BootStrap)"><strong>➥ Live Demo</strong></a>
 
 ### Contact or Connect with me:
 
