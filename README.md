@@ -16,6 +16,7 @@
 
 <div style="display: flex; flex-direction: row; align-items: center; justify-content: center">
 ![Pixology Desktop Demo](./demo-images/prixima-desktop.png "Desktop Demo")
+  <br/>
 ![Pixology Mobile Demo](./demo-images/prixima-mobile.png "Desktop Demo")
 </div>
 
