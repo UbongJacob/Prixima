@@ -14,11 +14,11 @@
 
 ### Demo Screenshots
 
+<div style="background-color:red" >
 <img src="./demo-images/prixima-desktop.png" alt="Desktop Demo">
-
-![Pixology Desktop Demo](./demo-images/prixima-desktop.png "Desktop Demo")
-![Pixology Mobile Demo](./demo-images/prixima-mobile.png "Desktop Demo")
-
+<br/>
+<img src="./demo-images/prixima-mobile.png" alt="Mobile Demo">
+</div>
 
 ### Credit and Acknowledgment
 This repo is a modified build of the YouTube Video Link link below and was created to learn about HTML,CSS,jQuery and Bootstrap. Most Credits goes to the YouTube Channel Linkk below 
