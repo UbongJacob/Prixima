@@ -3,7 +3,7 @@
   ![GitHub repo size](https://img.shields.io/github/repo-size/UbongJacob/Prixima__HTML_CSS_JavaScript_jQuery_BootStrap)
   <a href = "https://twitter.com/UbonggJacob"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
   <a href = "https://www.instagram.com/ubonggjacob"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
-
+ [![linkedin](https://img.shields.io/youtube/views/olASpEtIwRY?style=social)](https://youtu.be/olASpEtIwRY)
 
   <br />
   <br />
