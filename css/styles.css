@@ -54,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700 !important;
+  font-weight: 700;
   color: var(--dark-blue);
 }
 
@@ -63,6 +63,9 @@ a {
   text-decoration: none;
   transition: all 0.4s ease;
   font-weight: var(--fw-bold);
+}
+a:hover {
+  color: var(--primary);
 }
 
 img {
@@ -165,7 +168,9 @@ intro p {
 }
 
 /* SLIDER */
-
+#hero-slider h1 {
+  font-weight: 700 !important;
+}
 .slide1 {
   background: linear-gradient(var(--gradient), var(--gradient)),
     url(../images/bg_banner1.jpg);
@@ -362,4 +367,65 @@ intro p {
 }
 .review p {
   margin-top: 20px;
+}
+
+/* BLOG POST */
+.blog-post {
+  position: relative;
+}
+.blog-post .tag {
+  padding: 4px 12px 0;
+  background-color: var(--primary);
+  color: var(--white);
+  border-radius: 100px;
+  top: 20px;
+  left: 20px;
+  position: absolute;
+}
+.blog-post img {
+  margin-bottom: 12px;
+}
+.blog-post h4 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.blog-post a {
+  font-weight: 700;
+}
+.blog-post small {
+  color: var(--primary);
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+/* FOOTER */
+footer {
+  background: linear-gradient(var(--gradient), var(--gradient)),
+    url(../images/bg_banner1.jpg);
+  padding-top: 80px;
+  padding-bottom: 20px;
+  color: var(--white);
+  text-align: center;
+}
+footer .navbar-brand {
+  color: var(--white);
+  margin-bottom: 24px;
+  display: inline-block;
+}
+.footer-top {
+  margin-bottom: 40px;
+}
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 20px;
+}
+footer .social-links a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* FORM */
+.form-control:focus {
+  box-shadow: none;
+  border-color: var(--primary);
 }

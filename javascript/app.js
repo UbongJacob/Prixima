@@ -49,7 +49,7 @@ $('#project-slider').owlCarousel({
 });
 
 // REVIEWS
-$('.owl-carousel').owlCarousel({
+$('#reviews .owl-carousel').owlCarousel({
   loop: true,
   margin: 10,
   nav: false,
