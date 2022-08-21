@@ -1,11 +1,9 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/pixology)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/pixology?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/pixology?style=social)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee)
-  [![linkedIn Follow](https://img.shields.io/linkedin/follow/UbongJacob?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/olASpEtIwRY?style=social)](https://youtu.be/olASpEtIwRY)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/UbongJacob/Prixima__HTML_CSS_JavaScript_jQuery_BootStrap)
+  <a href = "https://twitter.com/UbonggJacob"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+  <a href = "https://www.instagram.com/ubonggjacob"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+
 
   <br />
   <br />
