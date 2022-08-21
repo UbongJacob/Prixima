@@ -24,6 +24,7 @@ This repo is a modified build of the Video linked below and was created to learn
  - [YouTube Channel Link](https://www.youtube.com/c/SA7MAN)
 
 <br/>
+
 ### Prerequisites
 
 Before you begin, ensure you have met the following requirements:
