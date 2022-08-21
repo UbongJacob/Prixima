@@ -18,6 +18,13 @@
 ![Pixology Mobile Demo](./demo-images/prixima-mobile.png "Desktop Demo")
 
 
+### Credit and Acknowledgment
+This repo is a modified build of the YouTube Video Link link below and was created to learn about HTML,CSS,jQuery and Bootstrap. Most Credits goes to the YouTube Channel Linkk below 
+
+ - [YouTube Video Link](https://www.youtube.com/watch?v=w2zix0oYyE8&t=34s)
+ - [YouTube Channel Link](https://www.youtube.com/c/SA7MAN)
+
+<br/>
 ### Prerequisites
 
 Before you begin, ensure you have met the following requirements:
