@@ -12,7 +12,9 @@
 
 <br />
 
-### Demo Screeshots
+### Demo Screenshots
+
+<img src="./demo-images/prixima-desktop.png" alt="Desktop Demo">
 
 ![Pixology Desktop Demo](./demo-images/prixima-desktop.png "Desktop Demo")
 ![Pixology Mobile Demo](./demo-images/prixima-mobile.png "Desktop Demo")
