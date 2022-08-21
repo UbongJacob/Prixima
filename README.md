@@ -14,7 +14,7 @@
 
 ### Demo Screenshots
 
-<div style="background-color:red" >
+<div background-color="red" >
 <img src="./demo-images/prixima-desktop.png" alt="Desktop Demo">
 <br/>
 <img src="./demo-images/prixima-mobile.png" alt="Mobile Demo">
