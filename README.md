@@ -1,7 +1,7 @@
 <div align="center">
   <h2 align="center">Prixima - Digital Agency Website</h2>
 
-  Prixima is a fully responsive digital agency website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+  Prixima is a fully responsive digital agency website, <br />Responsive for all devices, built using HTML, CSS, jQuery and Bootstrap.
 
   ## <a href="https://ubongjacob.github.io/Prixima__HTML_CSS_JavaScript_jQuery_BootStrap"><strong>➥ Run a Live Demo Of This Project </strong></a>
 
