@@ -14,7 +14,9 @@
 
 ### Demo Screeshots
 
-![Pixology Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![Pixology Desktop Demo](./demo-images/prixima-desktop.png "Desktop Demo")
+<br />
+![Pixology Mobile Demo](./demo-images/prixima-mobile.png "Desktop Demo")
 
 ### Prerequisites
 
