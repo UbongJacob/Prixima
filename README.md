@@ -3,7 +3,7 @@
 
   Prixima is a fully responsive digital agency website, <br />Responsive for all devices, built using HTML, CSS, jQuery and Bootstrap.
 
-  ## <a href="https://ubongjacob.github.io/Prixima__HTML_CSS_JavaScript_jQuery_BootStrap"><strong>➥ Run a Live Demo Of This Project </strong></a>
+  ## <a href="https://ubongjacob.github.io/Prixima"><strong>➥ Run a Live Demo Of This Project </strong></a>
 
 </div>
 
@@ -47,7 +47,7 @@ Windows:
 git clone https://github.com/UbongJacob/Prixima__HTML_CSS_JavaScript_jQuery_BootStrap.git
 ```
 
-### <a href="https://ubongjacob.github.io/Prixima__HTML_CSS_JavaScript_jQuery_BootStrap"><strong>➥ Live Demo</strong></a>
+### <a href="https://ubongjacob.github.io/Prixima"><strong>➥ Live Demo</strong></a>
 
 ### Contact or Connect with me:
 
