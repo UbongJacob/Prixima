@@ -38,13 +38,13 @@ To run **Prixima** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/UbongJacob/Prixima__HTML_CSS_JavaScript_jQuery_BootStrap.git
+sudo git clone https://github.com/UbongJacob/Prixima.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/UbongJacob/Prixima__HTML_CSS_JavaScript_jQuery_BootStrap.git
+git clone https://github.com/UbongJacob/Prixima.git
 ```
 
 ### <a href="https://ubongjacob.github.io/Prixima"><strong>➥ Live Demo</strong></a>
